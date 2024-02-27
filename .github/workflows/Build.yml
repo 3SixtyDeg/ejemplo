@@ -16,10 +16,8 @@ jobs:
       - name: source path
         run: |
             cd AdminECW/AdminECW/ClientApp
-      - name: Install dependencies
-        run: npm i
-      - name: Test and coverage
-        run: npm run test:coverage
+            npm install
+            npm run test:coverage
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
