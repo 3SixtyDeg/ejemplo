@@ -1,13 +1,13 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/AdminECW/AdminECW/ClientApp/dist
+/AdminECW/AdminECW/ClientApp/tmp
+/AdminECW/AdminECW/ClientApp/out-tsc
+/AdminECW/AdminECW/ClientApp/bazel-out
 
 # Node
-/node_modules
+/AdminECW/AdminECW/ClientApp/node_modules
 npm-debug.log
 yarn-error.log
 
@@ -29,13 +29,13 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
+/AdminECW/AdminECW/ClientApp/.angular/cache
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/AdminECW/AdminECW/ClientApp/connect.lock
+/AdminECW/AdminECW/ClientApp/coverage
+/AdminECW/AdminECW/ClientApp/libpeerconnection.log
+/AdminECW/AdminECW/ClientApp/testem.log
+/AdminECW/AdminECW/ClientApp/typings
 
 # System files
 .DS_Store
